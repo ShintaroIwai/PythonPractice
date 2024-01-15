@@ -25,3 +25,22 @@ print(f"I am {my_age} years old.")
 hilarious = False
 joke_evaluation = "Isn't the joke so funny?! {}"
 print(joke_evaluation.format(hilarious))
+
+#Exercise 7: More Printing
+print("The sheep's fleece was as white as {}.".format('snow'))
+print("." * 10)
+
+#Exercise 8: Printing, Printing
+formatter = "{} {} {} {}"
+print(formatter.format(1, 2, 3, 4))
+print(formatter.format("printing", "hello", "world", "in Python"))
+
+#Exercise 9: Printing, Printing, Printing
+days = "Mon Tue Wed Thu Fri Sat Sun"
+months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec" #the \n seems to make new lines
+print("Here are the days: ", days)
+print("Here are the months: ", months)
+print("""
+Triple quotation marks
+We can type as much as we like with it
+""") #any number of lines, to make a new line, just type it like you want it to show
