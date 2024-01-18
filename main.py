@@ -44,3 +44,24 @@ print("""
 Triple quotation marks
 We can type as much as we like with it
 """) #any number of lines, to make a new line, just type it like you want it to show
+
+#Exercise 10: What Was That?
+tabby_cat = "\tI'm tabbed in."
+persian_cat = "I'm split\non a line."
+backslash_cat = "I'm \\ a \\ cat"
+
+fat_cat = """
+I'll do a list:
+\t* Cat food
+\t* Fishies
+\t* Catnip\n\t* Grass
+"""
+
+print(tabby_cat)
+print(persian_cat)
+print(backslash_cat)
+print(fat_cat)
+
+print("I am 6'2\" tall.") #escape double-quotes within string,
+# tells Python that the specific double-quote isn't end of the string
+print('I am 6\'2" tall.') #escape single-quotes within string
