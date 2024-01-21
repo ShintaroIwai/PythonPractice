@@ -65,3 +65,14 @@ print(fat_cat)
 print("I am 6'2\" tall.") #escape double-quotes within string,
 # tells Python that the specific double-quote isn't end of the string
 print('I am 6\'2" tall.') #escape single-quotes within string
+
+#Exercise 11: Asking Questions - input() makes you type in values before proceeding, the end=' ' tells print
+# to not end the line with a newline character and go to the next line.
+print("How old are you?", end=' ')
+age = input()
+print("How tall are you?", end=' ')
+height = input()
+print("How much do you weigh?", end=' ')
+weight = input()
+
+print(f"So you're {age} old, {height} tall and {weight} heavy.")
