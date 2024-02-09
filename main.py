@@ -76,3 +76,9 @@ print("How much do you weigh?", end=' ')
 weight = input()
 
 print(f"So you're {age} old, {height} tall and {weight} heavy.")
+
+#Exercise 12: Prompting People - doing the same thing as Exercise 11 but in a different way
+age1 = input("How old are you? ")
+height1 = input("How tall are you? ")
+weight1 = input("How much do you weigh? ")
+print(f"So you're {age1} old, {height1} tall and {weight1} heavy.")
